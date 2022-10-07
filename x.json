@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "correo": "daniel.valero@masiv.com",
+    "telefono": "573102171539",
+    "cellphone": "573102171539",
+    "email": "daniel.valero@masiv.com",
+    "flowId": "6340878cc9197f00111e2e79",
+    "transactionId": "634087f0911fd200115d40c4",
+    "clientId": "13091",
+    "pTracking": "634087f0911fd200115d40c3"
+  },
+  "node": {
+    "initial": true,
+    "name": "GenerateOtp",
+    "type": "otp",
+    "eventType": "call",
+    "eventHandler": "otp",
+    "otherData": {
+      "lengthKey": 5,
+      "attemptsExpiration": 3,
+      "timeExpiration": 180,
+      "containUpperCharacters": true,
+      "containNumberCharacters": true,
+      "containLowerCharacters": true,
+      "type": "generator",
+      "OTPparameter": "OTPFidubogota"
+    },
+    "selectedService": {},
+    "conditions": [],
+    "modelId": "1s15-otp",
+    "internalId": "1s15-otp",
+    "position": { "x": 854, "y": 1106 },
+    "_id": "634087f0911fd200115d40c1",
+    "flowId": "6340878cc9197f00111e2e79",
+    "expireAt": "2022-10-09T20:11:28.036Z",
+    "clientId": "13091"
+  },
+  "triggeredBy": {}
+}
