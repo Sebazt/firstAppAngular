@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CounterComponent implements OnInit {
   num: number = 0;
+  isButtonDisabled: boolean= false;
+  
   constructor() {}
 
   //función sumar
@@ -15,12 +17,12 @@ export class CounterComponent implements OnInit {
     this.limitNumber();
   }
 
-  restar(){
-    this.num -=1;
+  restar() {
+    this.num -= 1;
   }
 
-  accionOperacion(n:number){
-    this.num +=n;
+  accionOperacion(n: number) {
+    this.num += n;
     this.limitNumber();
   }
 

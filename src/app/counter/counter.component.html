@@ -1,7 +1,7 @@
 <section class="counter">
   <section class="section-counter">
 
-    <button (click)=" sumar() "><i>+</i></button>
+    <button (click)=" sumar() " [disabled]=" num > 49":true><i>+</i></button>
 
     <p>Resultado : <span class="number">{{num}}</span></p>
 
