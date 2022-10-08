@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { PokemonsComponent } from './pokemons/pokemons.component';
 import { PokemonFuegoComponent } from './pokemon-fuego/pokemon-fuego.component';
 import { FormsModule } from '@angular/forms';
+import { CounterComponent } from './counter/counter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PokemonsComponent,
-    PokemonFuegoComponent
+    PokemonFuegoComponent,
+    CounterComponent
   ],
   imports: [
     BrowserModule,
