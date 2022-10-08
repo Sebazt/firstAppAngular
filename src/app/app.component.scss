@@ -28,4 +28,18 @@ body{
     }
 }
 
+.content-img{
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
 
+  img{
+    width: 180px;
+    height: 180px;
+    margin: 16px;
+  }
+}
